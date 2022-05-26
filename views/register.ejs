@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!--- BOOSTRAP --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+  <!--- BoxIcons --->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+<!--- CSS --->
+<link rel="stylesheet" href="/assets/css/global.css">
+<link rel="stylesheet" href="/assets/css/login.css">
+<link rel="stylesheet" href="">
+
+
+    <title>Registrarse</title>
+</head>
+<body id="login">
+<section class="index__login">
+    <div class="container"></div>
+   
+        <center>
+        <form name="login" class="d-flex flex-column center" action="login" method="POST" autocomplete="off"></form>
+        <h2 class="login__title">LABURADOS <b class="login__change__color">MARKET</b></h2>
+        <br>
+        <input type="text" placeholder="Usuario" name="user" id="username" minlength="1" required>
+        <br><br>
+        <input type="password" placeholder="Contraseña" name="pass" id="password" minlength="1" required>
+        <div class="mt-3">
+            <button class="btn__register" id="fe">REGISTRARSE <i class='bx bx-right-arrow-alt' ></i> </button><br>
+            
+            <br><p class="align-left">¿Ya tienes ceunta? <a href="/login"><b class="register_color">Log in</b></a></p><br>
+         
+    </center>
+    </div>
+</section>
+
+
+
+
+<!--- JS --->
+<script src="/assets/js/val.js"></script>
+</body>
+</html>
