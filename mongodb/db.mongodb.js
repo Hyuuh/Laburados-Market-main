@@ -18,7 +18,8 @@ mongoose.connect(url, {
 
   const usersSchema = mongoose.Schema({
    usuario:String,
-   password:String
+   password:String,
+   tokens:Number
 
 },{versionKey: false})
 
