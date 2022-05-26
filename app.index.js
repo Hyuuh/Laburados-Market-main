@@ -25,7 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
-const router = require('./routes/index.router')
+const router = require('./routes/index.router');
+const { default: mongoose } = require('mongoose');
 app.use(router.routes)
 
 //error 404
@@ -35,6 +36,7 @@ app.use('*', function(req, res, next) {
   });
 
 
+  
 
 
 
